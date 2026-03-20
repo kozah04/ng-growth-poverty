@@ -1,0 +1,20 @@
+name: ng-growth-poverty
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - ipykernel
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - pyarrow        # parquet read/write for caching API pulls
+  - pip:
+      - wbgapi     # official World Bank data API client
+      - linearmodels  # panel OLS, fixed/random effects, Hausman test
