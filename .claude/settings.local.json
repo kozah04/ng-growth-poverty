@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -c \":*)",
-      "Bash(python \"c:/Users/gwach/Documents/Data-Science-Stuff/ds_workplace/Portfolio/ng-growth-poverty/build_eda.py\")"
-    ]
-  }
-}
