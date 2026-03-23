@@ -1,16 +1,14 @@
 # Python
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.pytest_tmp/
 
 # Jupyter
 notebooks/.ipynb_checkpoints/
 
-# Data caches (keep folder placeholders only)
+# Data caches
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
-
-# Generated figures (keep folder placeholder only)
-outputs/figures/*
-!outputs/figures/.gitkeep
