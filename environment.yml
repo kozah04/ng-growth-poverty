@@ -7,14 +7,15 @@ dependencies:
   - pip
   - jupyter
   - ipykernel
-  - pandas
-  - numpy
-  - scipy
-  - matplotlib
-  - seaborn
-  - statsmodels
-  - scikit-learn
-  - pyarrow        # parquet read/write for caching API pulls
+  - pytest>=9.0,<10
+  - pandas>=3.0,<4
+  - numpy>=2.4,<3
+  - scipy>=1.17,<2
+  - matplotlib>=3.10,<4
+  - seaborn>=0.13,<1
+  - statsmodels>=0.14,<1
+  - scikit-learn>=1.8,<2
+  - pyarrow>=23,<24
   - pip:
-      - wbgapi     # official World Bank data API client
-      - linearmodels  # panel OLS, fixed/random effects, Hausman test
+      - wbgapi>=1.0,<2
+      - linearmodels>=7.0,<8
