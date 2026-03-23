@@ -1,8 +1,8 @@
 # ng-growth-poverty
 
-An analysis of whether economic growth actually reduces poverty - and whether it
+An analysis of whether economic growth actually reduces poverty and whether it
 does so equally across different African countries. The short answer is: growth
-helps, but not equally, and Nigeria gets less poverty reduction per unit of growth
+helps, but not equally and Nigeria gets less poverty reduction per unit of growth
 than its peers.
 
 ---
@@ -34,8 +34,7 @@ of analysis:
 | Does growth reduce poverty equally across countries? | No. Ghana and South Africa get significantly more poverty reduction per unit of growth than Nigeria. Kenya is the only country where poverty actually rose as GDP grew - still unexplained. |
 | What drives poverty beyond GDP? | Nothing significant. Once we account for each country's fixed characteristics, only GDP matters. Inequality, inflation, and foreign aid do not independently predict poverty changes within countries. |
 
-**The headline finding:** Nigeria's economy grew substantially between 2000 and 2015 -
-GDP per capita nearly doubled yet poverty only fell by about 19%.
+**The headline finding:** Nigeria's economy grew substantially between 2000 and 2015. GDP per capita nearly doubled yet poverty only fell by about 19%.
 Over the same period, Ethiopia achieved a 40% poverty drop from a
 much lower starting point. Growth in Nigeria happened but the gains concentrated
 in oil and related sectors that employ relatively few people and do not raise wages
