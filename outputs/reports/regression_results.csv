@@ -1,0 +1,7 @@
+model,coef,p_value,r_squared,n
+Nigeria OLS (lag 0),-39.7,0.0,0.975,31
+Nigeria OLS (lag 1),-39.2,0.0,0.961,31
+Nigeria OLS (lag 2),-38.1,0.0,0.916,31
+Nigeria OLS (lag 3),-36.3,0.0,0.842,30
+Panel FE (interpolated),-28.0,0.001,0.608,137
+Panel FE (observed only),-30.9,0.003,,33
