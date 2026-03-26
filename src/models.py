@@ -1,11 +1,16 @@
 """Model wrappers: OLS helpers, panel FE wrapper, and safer Granger utility."""
 
+from contextlib import redirect_stdout
+import io
 from collections.abc import Sequence
 from typing import Any
+
 
 import pandas as pd
 import statsmodels.api as sm
 from statsmodels.tsa.stattools import grangercausalitytests
+
+
 
 
 def fit_ols(df: pd.DataFrame, y_col: str, x_cols: Sequence[str]):
@@ -76,10 +81,10 @@ def granger_by_group(
             continue
 
         try:
-            outputs[str(group)] = grangercausalitytests(
-                pair, maxlag=max_lag, verbose=False
-            )
+            with redirect_stdout(io.StringIO()):
+                outputs[str(group)] = grangercausalitytests(pair, maxlag=max_lag)
         except Exception as exc:  # pragma: no cover - defensive wrapper
             outputs[str(group)] = {"error": type(exc).__name__, "message": str(exc)}
+
 
     return outputs
