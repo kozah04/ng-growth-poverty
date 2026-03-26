@@ -74,7 +74,6 @@ ng-growth-poverty/
   data/
     raw/                  # gitignored - API pull cached as parquet
     processed/            # gitignored - processed panel parquet
-    README.md             # data source notes
   notebooks/
     eda.ipynb             # data exploration and visualisation
     modelling.ipynb       # statistical analysis and model results
